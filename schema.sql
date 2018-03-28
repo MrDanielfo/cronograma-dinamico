@@ -20,7 +20,7 @@ CREATE TABLE proyectos(
   priority INTEGER UNSIGNED NOT NULL,
   time_dev VARCHAR(55) DEFAULT '2 semanas',
   category ENUM('Curso', 'Proyecto Propio'),
-  FULLTEXT KEY search(title, time_dev, category),
+  FULLTEXT KEY search(title, time_dev),
   FOREIGN KEY (priority) REFERENCES prioridad(priority_id) ON DELETE RESTRICT ON UPDATE CASCADE
 );
 
