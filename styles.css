@@ -1,0 +1,86 @@
+body {
+  font-family: 'Padauk', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+header.header-contenedor{
+    width: 100%;
+    max-width: 100%;
+    background-color: #313754;
+    position: absolute;
+}
+
+h1.titulo {
+  color: #fff;
+  text-align: center;
+  padding: 15px 15px;
+}
+
+section.contenedor-secundario {
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+  position: absolute;
+  top: 200px;
+  margin-bottom: 5%;
+}
+
+h2.subtitulo {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+table.tabla {
+  width: 95%;
+  max-width: 100%;
+  margin-left: 2%;
+  margin-top: 10px;
+  margin-bottom: 5%;
+}
+
+th.cabezal {
+  color: #fff;
+  background-color: #72A6EB;
+  border: 2px solid #fff;
+  font-size: 1.2em;
+}
+
+td.proyecto {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+td.prioridad {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+td.desarrollo {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+tr.finalizada {
+ background-color: #0CEB8B;
+ color: #000;
+}
+
+tr.alta {
+  background-color: #C2260E;
+  color: #fff;
+}
+
+tr.media {
+  background-color: #BE6423;
+  color: #fff;
+}
+
+tr.baja {
+  background-color: #D7E027;
+}
+
+tr.no-definida {
+  background-color: #9E9D99;
+}
