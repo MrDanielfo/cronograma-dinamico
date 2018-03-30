@@ -55,4 +55,4 @@ INSERT INTO proyectos (project_id, title, priority, time_dev, category) VALUES
 ('20', 'API para periodistas', 5, 'No definido', 'Proyecto Propio'),
 ('21', 'Angular Completo', 4, '8 semanas', 'Curso'),
 ('22', 'Cronograma', 2, 'Constante', 'Proyecto Propio'),
-('23', 'Node Js MirCha', 4, '8 semanas', 'Curso'); 
+('23', 'Node Js MirCha', 4, '8 semanas', 'Curso');
